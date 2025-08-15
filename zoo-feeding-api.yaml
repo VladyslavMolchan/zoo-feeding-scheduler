@@ -1,0 +1,44 @@
+openapi: 3.0.0
+info:
+  title: Zoo Feeding API
+  version: 1.0.0
+paths:
+  /animals:
+    get:
+      summary: Get list of animals
+      parameters:
+        - in: query
+          name: page
+          schema:
+            type: integer
+        - in: query
+          name: size
+          schema:
+            type: integer
+        - in: query
+          name: species
+          schema:
+            type: string
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Animal'
+components:
+  schemas:
+    Animal:
+      type: object
+      properties:
+        id:
+          type: string
+          format: uuid
+        name:
+          type: string
+        species:
+          type: string
+        age:
+          type: integer
