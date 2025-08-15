@@ -1,4 +1,4 @@
-# Zoo Feeding Scheduler API
+ # Zoo Feeding Scheduler API
 
 This project is a RESTful API for scheduling and alerting zoo animal feedings.
 

@@ -1,4 +1,4 @@
-# Caching
+ # Caching
 
 - GET requests are cacheable to improve performance:
   - Animals list and individual animal data cached for 5 minutes

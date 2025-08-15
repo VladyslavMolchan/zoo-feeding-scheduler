@@ -1,4 +1,4 @@
-# Authentication
+ # Authentication
 
 - Method: JWT (JSON Web Token)
 - Users must authenticate with a login endpoint (not covered here, assumed)

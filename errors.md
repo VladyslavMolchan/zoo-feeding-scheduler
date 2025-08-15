@@ -1,4 +1,4 @@
-# Error Handling and Status Codes
+ # Error Handling and Status Codes
 
 - 200 OK — Successful GET, PUT requests
 - 201 Created — Successful POST requests
